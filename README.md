@@ -17,5 +17,6 @@ To get started with Penguinius, simply visit the website <a href = "http://pengu
 <h2>Conclusion</h2>
 As a team, we learnt more than we could have imagined. We were exposed to a lot of challenges in all departments, but we managed to pull through and create a product we as a team were satisfied with. The project was a joy to make as we slowly see it formed from ground up. We hope this small project can be a starting point for bigger future projects. 
 
-<h1 style="color:blue;">Rock Chalk!</h1>
+<span style="color: blue;">Rock Chalk!</span>
+
 

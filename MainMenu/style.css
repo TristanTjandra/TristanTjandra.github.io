@@ -29,12 +29,13 @@ body{
 }
 
 #chemIcon{
-    margin-left: 6em;
-    margin-bottom: 2em;
+    margin-left: 7%;
+    margin-bottom: 2%;
     z-index: 9999; /* make sure it's on top of other elements */
     width: 30%;
     height: 30%;
-    background-image: url(flaskbg.png);
+    
+    
 }
 
 #chemIcon:hover{
@@ -45,14 +46,14 @@ body{
 }
 
 .orbit {
-  height: 320px;
-  width: 320px;
+  height: 50%;
+  width: 50%;
   border-radius: 50%;
   position: absolute;
   margin: auto;
   left: 0;
-  right: 0;
-  bottom: 0;
+  right: 15%;
+  bottom: 500%;
   top: 0;
   animation: spin 5s infinite linear;
   z-index: 9999;
@@ -65,7 +66,7 @@ body{
 }
 
 .container{
-  height: 70%;
+  height: 30%;
   width: auto;
 }
 
@@ -122,8 +123,8 @@ body{
 
 
 .physIcon{
-    margin-left: 5%;
-    margin-top: 20%;
+    margin-left: 0%;
+    margin-top: -25%;
     z-index: 9998; /* make sure it's on top of other elements */
     width: 90%;
     height: auto;
@@ -232,9 +233,9 @@ svg .flask{
 	align-items: center;
 	transform-style: preserve-3d;
 	transform: rotateZ(-20deg);
-    top: -20%;
-    right: 6%;
-    transform: rotate(-45deg);
+  top: -20%;
+  right: 6%;
+  transform: rotate(-45deg);
 }
 
 

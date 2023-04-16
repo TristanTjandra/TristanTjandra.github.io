@@ -47,13 +47,13 @@ body{
 #rocket{
     width: 20vw;
     height: auto;
-}
-
-#rocket{
+    margin-left: 5%;
     animation-name: rocketAnim;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
+
 
 @keyframes rocketAnim{
     0%{

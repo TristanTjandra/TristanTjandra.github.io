@@ -2,10 +2,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -25%;
     transform: rotate(3deg);
   }
 body{
     overflow: hidden;
     overflow-y: hidden;
+}
+
+.water{
+  position: absolute;
+  z-index: 2;
+  transform: rotate(-3deg);
+  left: 50%;
+  opacity: 0;
+}
+
+h1{
+  position:absolute;
+  top: 5%;
+  left: 25%;
+  font-size: 4vw;
+  opacity: 0;
+}
+
+#next{
+  position: absolute;
+  color: black;
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 2;
+  margin-left: 1em;
+}
+#next:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }

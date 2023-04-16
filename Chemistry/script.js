@@ -1,5 +1,5 @@
 function next(){
-    document.location.href = "../ChemistryStory/main.html";
+    document.location.href = "../MainMenu/main.html";
 }
 
 function liquid(){

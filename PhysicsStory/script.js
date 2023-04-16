@@ -6,5 +6,3 @@ function callBack_func() {
 function next(){
     document.location.href = "../Physics/main.html";
 }
-
-

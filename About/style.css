@@ -1,10 +1,8 @@
 body {
     overflow: hidden;
     background-image: url(bg.png);
-    background-size: 90%;
-    background-position: 200% 0%;
     background-repeat: no-repeat;
-    position: relative; /* added */
+    background-size: cover;
   }
 
 #back{
@@ -27,8 +25,8 @@ body {
     align-items: center;
     height: 100vh;
     position: absolute;
-    left: 300px; /* added */
-    margin-top: -100px;
+    left: 20%; /* added */
+    margin-top: -10%;
     
   }
   
@@ -65,7 +63,8 @@ body {
 
 h1{
   font-size: 1.5em;
-  width: 43%;
+  margin-left: 2%;
+  width: 30%;
   font-family: ComicSans;
   display: flex;
   justify-content: flex-start;

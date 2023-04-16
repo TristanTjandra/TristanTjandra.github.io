@@ -34,8 +34,11 @@ body{
     z-index: 9999; /* make sure it's on top of other elements */
     width: 30%;
     height: 30%;
-    
-    
+    background-image: url(flaskbg.png);
+    background-size: 180%;
+    background-position: bottom 50% left 50%;
+    background-repeat: no-repeat;
+
 }
 
 #chemIcon:hover{

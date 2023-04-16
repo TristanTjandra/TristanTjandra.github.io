@@ -13,3 +13,4 @@ Penguinius is packed with features that make learning science easy and enjoyable
 
 <h2>Getting Started</h2>
 To get started with Penguinius, simply visit the website <a href = "http://penguinius.tech"> here</a>. From there, you can start to explore the various lessons that our website provides.
+

@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#background {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items:center;
+    justify-content: space-between;  
+}
+.live-text {
+    animation: typing 2s steps(20) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid lightblue;
+    color:white;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    animation-iteration-count: 1;
+    z-index: 100;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    60% {
+        width: 38%;
+        border-right: .05em solid lightblue;
+    }
+    to {
+        border-right: 0;
+    }
+}
+
+#rocket{
+    width: 20vw;
+    height: auto;
+}
+
+#rocket{
+    animation-name: rocketAnim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rocketAnim{
+    0%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-2px);
+    }
+    60%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+#buttonFlex{
+    display: flex;
+    height: 30vh;
+    width: 15vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#upButton, #downButton, #backButton{
+    background-color: transparent;
+    border: none;
+    margin: 1em;
+}
+.MyImage{
+    height: 10vh;
+}
+#counter{
+    color: white;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#white{
+    color: white;
+}
+#reset{
+    color: white;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#reset:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

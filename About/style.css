@@ -1,0 +1,76 @@
+body {
+    overflow: hidden;
+    background-image: url(bg.png);
+    background-size: 90%;
+    background-position: 200% 0%;
+    background-repeat: no-repeat;
+    position: relative; /* added */
+  }
+
+#back{
+  position: absolute;
+  color: black;
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 2;
+  margin-left: 1em;
+}
+#back:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    left: 300px; /* added */
+    margin-top: -100px;
+    
+  }
+  
+  .profile-image {
+    width: 200%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateX(-50%);
+    animation: slide-in 1s ease-in-out forwards;
+  }
+
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .tabcontent {
+    display: none;
+  }
+
+@font-face { font-family: "ComicSans" ; src: url("comic-sans-ms-font-family\\COMIC.ttf") format("truetype"); }
+
+h1{
+  font-size: 1.5em;
+  width: 43%;
+  font-family: ComicSans;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+  

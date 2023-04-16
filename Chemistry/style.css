@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(bg.png);
+    background-color: #d9d9d9;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
+}
+
+#next{
+    position: absolute;
+    color: black;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 2;
+    margin-left: 1em;
+}
+#next:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#background{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+#liquid{
+    background-color: transparent;
+    width: 12%;
+    height: 50%;
+    opacity: 0.5;
+    z-index: 99;
+}
+
+#liquid:hover{
+    cursor: pointer;
+}
+
+#gas{
+    background-color: transparent;
+    width: 12%;
+    height: 50%;
+    opacity: 0.5;
+    z-index: 99;
+}
+
+#gas:hover{
+    cursor: pointer;
+}
+
+#solid{
+    background-color: transparent;
+    width: 15%;
+    height: 25%;
+    opacity: 0.5;
+    z-index: 99;
+}
+
+#solid:hover{
+    cursor: pointer;
+}

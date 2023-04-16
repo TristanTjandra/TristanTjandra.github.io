@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Pengu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <audio src="astroBG.mp3" loop autoplay></audio>
+    <div id="container">
+        <h1 class="live-text">ASTRO PENGU</h1>
+        <div id="background" style="background-image: url(bg.jpg)">
+            <button id="backButton" onclick="back()"><img class ="MyImage" src="back.png"></button>
+            <img id="rocket" src="rocket1.png" alt="Rocket image">
+            <div id="buttonFlex">
+                <p id="counter">0</p>
+                <button id="upButton" onclick="speedUp()"><img class ="MyImage" src="add.png"></button>
+                <button id="downButton" onclick="speedDown()"><img class ="MyImage" src="sub.png"></button>
+                <p id="reset" onclick="reset()">RESET</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

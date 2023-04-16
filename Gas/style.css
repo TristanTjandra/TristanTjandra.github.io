@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d9d9d9;
+}
+
+#next{
+    position: absolute;
+    color: black;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 2;
+    margin-left: 1em;
+}
+#next:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#bg{
+    display: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
